@@ -1,10 +1,10 @@
 from reading_annotations import d
 
 #######################################################################################################################
-#Creating a new dictionary having as keys the 'pages' and as values the table's coordinates only
+#Creating a new dictionary having the pages as keys and the tables coordinates as values
 #######################################################################################################################
 
-#This method allow to find the beginning of coordinates required
+#This method allows to find the beginning of coordinates required
 def findBackString(string, index):
   if string[index]=='[':
     return index
@@ -13,7 +13,7 @@ def findBackString(string, index):
 
 mydict={}
 
-#A new dictionary is created with 'pages' and every annotations related to it.
+#A new dictionary is created with 'pages' and related annotations
 for key in d.keys(): 
   lst=[] 
   count = 0 

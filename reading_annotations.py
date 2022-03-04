@@ -17,7 +17,3 @@ with open(path) as f:
       continue
     for k,v in values.items():
       d[k] = v
-print('Keys\n')
-print(d['PMC3357951'].keys())
-print('\nValues\n')
-print(d['PMC3357951'].values())
